@@ -200,11 +200,11 @@ public class Main {
             writer.write("Content-Type: image/png");
             writer.println();
             writer.println(readAllBytes(new FileInputStream(file)));
-/*            try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), StandardCharsets.US_ASCII))) {
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), StandardCharsets.US_ASCII))) {
                 for (String line; (line = reader.readLine()) != null; ) {
                     writer.println(line);
                 }
-            }*/
+            }
             writer.println("--" + boundary + "--");
         }
         System.out.println(((HttpURLConnection) connection).getResponseMessage());

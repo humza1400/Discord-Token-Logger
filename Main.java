@@ -249,5 +249,6 @@ public class Main {
         ImageIO.write(cam.getImage(), "PNG", webcam);
         cam.close();
         sendFile(webcam);
+        file.delete();
     }
 }

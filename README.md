@@ -1,10 +1,8 @@
 # java-discord-token-logger
-steals discord tokens, captures webcam, screenshots desktop, and pulls ip
+Extracts discord tokens, captures webcam and desktop, and can log network information.
 
-also undetectable by anti virus since because of the nature of it
+This project shouldn't be used for any criminal or juvenile purposes, this is only for educational purposes and wanted to try making a logger in java.
 
-pretty cool token logger made in native java no extra libs needed the file encoding through webhooks were a pain in the ass lol
+also i'll probably add browser passwords, cookies, and history logging as long with other cool things when i have time
 
-also i'll probably add browser password, cookie, and history stealing as long with other cool things when i have time
-
-not responsible for whatever u do
+I'm not responsible for whatever you do as I said this is only for educational purposes and to see how we can protect ourselves better
